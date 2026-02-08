@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.shuangfa114.keepmixing.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "keepmixing.refmap.json",
+  "mixins": [
+    "MixinBasinOperatingBlockEntity",
+    "MixinMechanicalMixerBlockEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
