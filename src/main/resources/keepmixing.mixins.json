@@ -1,10 +1,14 @@
 {
   "required": true,
   "minVersion": "0.8",
+  "mixinextras": {
+    "minVersion": "0.5.3"
+  },
   "package": "org.shuangfa114.keepmixing.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "keepmixing.refmap.json",
   "mixins": [
+    "MixinBasinBlockEntity",
     "MixinBasinOperatingBlockEntity",
     "MixinMechanicalMixerBlockEntity"
   ],
